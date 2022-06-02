@@ -1,0 +1,19 @@
+import java.util.Scanner;
+//Author: Ömer Eren Usalan
+public class fahrenheitToCelcius {
+
+	public static void main(String[] args) {
+		Scanner input=new Scanner(System.in);
+		System.out.print("Enter your degrees in Fahrenheit format."); // Take a fahrenheit degrees to convert.
+		double f=input.nextInt();
+		
+		double c=(f-32)/1.8000;                                       // Calculation.
+		
+		System.out.printf(f+"  Fahrenayt = "+ "%1.2f" + " Celcius." , c );  //Print values.
+		
+		
+		
+
+	}
+
+}
